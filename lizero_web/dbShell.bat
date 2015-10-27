@@ -1,0 +1,1 @@
+E:\learn\mongodb\bin\mongo.exe
