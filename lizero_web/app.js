@@ -13,7 +13,10 @@ app.listen(function(){
 	var port=this.address().port;
 	var address=this.address().address;
 	console.log(port+' and '+ address);
+	//console.log(process.cwd());
+	//console.log(__dirname);
 });
+
 
 //var server=app.listen(80,'101.200.90.121',function(){
 

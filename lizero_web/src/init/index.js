@@ -67,17 +67,9 @@ LizeroWebApp.prototype.getExpressApp=function(){
 	return this.expressApp;
 }
 module.exports=LizeroWebApp;
-/*LizeroWebApp.prototype.setConfig=function(){
-	var arg0=arguments[0];
-	if(typeof arg0 == 'string'){
-		this.cfg[arg0]=arguments[1];
-	}else if(typeof arg0 == 'object'){
-		for(var i in arg0){
-			this.cfg[i]=arg0[i];
-		}
-	}
-}*/
 
+console.log(process.cwd());
+console.log(__dirname);
 
 
 
